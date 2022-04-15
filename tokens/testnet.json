@@ -1,7 +1,7 @@
 [
   {
     "name": "Wrapped ETH",
-    "address": "0x82Eb39f602579d01469de17283baBddf70C8D054",
+    "address": "0x27742925E201e7f0B1b5ceD930581b025acA52Bb",
     "symbol": "WETH",
     "decimals": 18,
     "chainId": 1337,
@@ -9,18 +9,42 @@
   },
   {
     "chainId": 1337,
-    "address": "0x879b3031B7B46BED538b98035437b5EF6eFAf41d",
-    "symbol": "TKA",
-    "name": "Token A",
+    "address": "0xA4d374C75557c27108d4fE6570E1D3514C9eDFF9",
+    "symbol": "TK1",
+    "name": "Token 1",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png"
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg"
   },
   {
     "chainId": 1337,
-    "address": "0x24F59d7ddbB260eb774a4689a7D1546f589ac531",
-    "symbol": "TKB",
-    "name": "Token B",
-    "decimals": 8,
-    "logoURI": "https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png"
-  }
+    "address": "0x8538F48649CFf265603A5052B0250E83E0835917",
+    "symbol": "TK2",
+    "name": "Token 2",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg"
+  },
+  {
+		"chainId": 1337,
+		"address": "0xd0008Ca2618e13e02bdcdDECD7B09a69cAf6AFb8",
+		"symbol": "DAI",
+		"name": "Dai Stablecoin",
+		"decimals": 18,
+		"logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/dai.jpg"
+	},
+  {
+		"chainId": 1337,
+		"address": "0x7B1409359F0BDE3aBD70dEA36db349a0508DeefF",
+		"symbol": "USDT",
+		"name": "Tether USD",
+		"decimals": 6,
+		"logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/usdt.jpg"
+	},
+  {
+		"chainId": 1337,
+		"address": "0x985458E523dB3d53125813eD68c274899e9DfAb4",
+		"symbol": "USDC",
+		"name": "USD Coin",
+		"decimals": 6,
+		"logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/usdc.jpg"
+	}
 ]
