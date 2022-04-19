@@ -9,7 +9,7 @@
   },
   {
     "chainId": 1337,
-    "address": "0xA4d374C75557c27108d4fE6570E1D3514C9eDFF9",
+    "address": "0x6725dB1943AA5E3F548f850A7a27A1682EC7714D",
     "symbol": "TK1",
     "name": "Token 1",
     "decimals": 18,
@@ -17,7 +17,7 @@
   },
   {
     "chainId": 1337,
-    "address": "0x8538F48649CFf265603A5052B0250E83E0835917",
+    "address": "0x4A45D5891C4b6BDE24017A701442020ed73A6654",
     "symbol": "TK2",
     "name": "Token 2",
     "decimals": 18,
@@ -33,18 +33,18 @@
 	},
   {
 		"chainId": 1337,
+		"address": "0x33b631afD7c67840810d1942E1F55B71B7A3D097",
+		"symbol": "SUSHI",
+		"name": "Sushi Token",
+		"decimals": 18,
+		"logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/sushi.jpg"
+	},
+  {
+		"chainId": 1337,
 		"address": "0x7B1409359F0BDE3aBD70dEA36db349a0508DeefF",
 		"symbol": "USDT",
 		"name": "Tether USD",
 		"decimals": 6,
 		"logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/usdt.jpg"
-	},
-  {
-		"chainId": 1337,
-		"address": "0x985458E523dB3d53125813eD68c274899e9DfAb4",
-		"symbol": "USDC",
-		"name": "USD Coin",
-		"decimals": 6,
-		"logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/usdc.jpg"
 	}
 ]

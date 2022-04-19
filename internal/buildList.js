@@ -2,6 +2,8 @@ const { version } = require("../package.json");
 
 const mainnet = require("../tokens/mainnet.json");
 const testnet = require("../tokens/testnet.json");
+const milkomeda_testnet = require("../tokens/milkomeda-testnet.json");
+const milkomeda = require("../tokens/milkomeda.json");
 const ropsten = require("../tokens/ropsten.json");
 const rinkeby = require("../tokens/rinkeby.json");
 const goerli = require("../tokens/goerli.json");
@@ -47,6 +49,8 @@ module.exports = function buildList() {
     tokens: [
       ...mainnet,
       ...testnet,
+      ...milkomeda,
+      ...milkomeda_testnet,
       ...ropsten,
       ...goerli,
       ...kovan,
