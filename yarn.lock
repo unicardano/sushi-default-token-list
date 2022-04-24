@@ -451,22 +451,6 @@
   dependencies:
     "@octokit/openapi-types" "^7.3.5"
 
-"@sushiswap/core-sdk@^1.0.0-canary.69":
-  version "1.0.0-canary.69"
-  resolved "https://registry.yarnpkg.com/@sushiswap/core-sdk/-/core-sdk-1.0.0-canary.69.tgz#3901461e89a38e6294338347a526cedb0ab7afe4"
-  integrity sha512-L3+P0pIIRX4LBYEzBn+EuJ2PM4PqDcvjYGpruuLMcH772TBpO+REiyzmZvvNClIuXfhgMhDocY5GcAvinVhswA==
-  dependencies:
-    "@ethersproject/address" "^5.4.0"
-    "@ethersproject/bignumber" "^5.4.0"
-    "@ethersproject/providers" "^5.4.0"
-    "@ethersproject/solidity" "^5.4.0"
-    big.js "^6.1.1"
-    decimal.js-light "^2.5.0"
-    jsbi "^4.1.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.0"
-    toformat "^2.0.0"
-
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.8.tgz#c1e4e80d6f964fbecb3359c43bd48b40f7cadad9"
@@ -496,6 +480,22 @@
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@ungap/promise-all-settled/-/promise-all-settled-1.1.2.tgz#aa58042711d6e3275dd37dc597e5d31e8c290a44"
   integrity sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==
+
+"@unicardano/sushi-core-sdk@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@unicardano/sushi-core-sdk/-/sushi-core-sdk-1.0.0.tgz#2670d993db343a6b729ca7e321577c7d479422d7"
+  integrity sha512-Nt8JiI3sXMQpu4xPu42Ij+SKP8PFMf7XEKKf5vrSHTgi48uPZGHfdYUgAGwrwSVlwa3bzFbPXrni63mX+7zecg==
+  dependencies:
+    "@ethersproject/address" "^5.4.0"
+    "@ethersproject/bignumber" "^5.4.0"
+    "@ethersproject/providers" "^5.4.0"
+    "@ethersproject/solidity" "^5.4.0"
+    big.js "^6.1.1"
+    decimal.js-light "^2.5.0"
+    jsbi "^4.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.0"
+    toformat "^2.0.0"
 
 "@uniswap/token-lists@1.0.0-beta.25":
   version "1.0.0-beta.25"
