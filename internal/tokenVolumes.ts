@@ -1,5 +1,5 @@
 import { request, gql } from "graphql-request";
-import { ChainId } from "@sushiswap/core-sdk";
+import { ChainId } from "@unicardano/sushi-core-sdk";
 import XLSX from "xlsx";
 import { readFileSync } from "fs";
 
@@ -20,6 +20,7 @@ export const GRAPH_HOST: Partial<Record<ChainId, string>> = {
   [ChainId.HECO]: HYPER_GRAPH,
   [ChainId.MOONRIVER]: THE_GRAPH,
   [ChainId.TELOS]: THE_GRAPH,
+  [ChainId.MILKOMEDA_TESTNET]: 'http://62.171.147.209:8000',
   [ChainId.KOVAN]: THE_GRAPH,
   [ChainId.FUSE]: THE_GRAPH,
   [ChainId.MOONBEAM]: THE_GRAPH,
@@ -27,6 +28,7 @@ export const GRAPH_HOST: Partial<Record<ChainId, string>> = {
 
 export const BLOCKS: Partial<Record<ChainId, string>> = {
   [ChainId.ETHEREUM]: "blocklytics/ethereum-blocks",
+  [ChainId.MILKOMEDA_TESTNET]: 'blocklytics/milkomeda-test-blocks',
   [ChainId.XDAI]: "matthewlilley/xdai-blocks",
   [ChainId.MATIC]: "matthewlilley/polygon-blocks",
   [ChainId.FANTOM]: "matthewlilley/fantom-blocks",
@@ -56,6 +58,7 @@ export const EXCHANGE: Partial<Record<ChainId, string>> = {
   [ChainId.MOONRIVER]: "sushiswap/moonriver-exchange",
   [ChainId.FUSE]: "sushiswap/fuse-exchange",
   [ChainId.MOONBEAM]: "sushiswap/moonbeam-exchange",
+  [ChainId.MILKOMEDA_TESTNET]: 'sushiswap/milkomeda-exchange',
 };
 
 const blockQuery = gql`
